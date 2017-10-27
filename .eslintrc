@@ -1,3 +1,16 @@
 {
-  "extends": "airbnb"
+  "extends": "airbnb",
+   "env": {
+    "browser": true, // browser global variables
+    "node": true, // Node.js global variables and Node.js scoping.
+    "mocha": true // adds all of the Mocha testing global variables.
+  },
+  "rules": {
+    "import/prefer-default-export": 0,
+    "no-unused-expressions": 0,
+    "chai-friendly/no-unused-expressions": 2
+  },
+  "plugins": [
+    "chai-friendly"
+  ]
 }

@@ -1,6 +1,6 @@
 # Helpers
 
-Various helper functions.
+Various general purpose helpers.
 
 ## Setup
 
