@@ -1,5 +1,5 @@
 import { expect } from 'chai';
-import split from '../src/split';
+import { split } from '../src/split';
 
 describe('The split helper', () => {
   it('correctly splits the values of a list into 2 according to a rule', () => {

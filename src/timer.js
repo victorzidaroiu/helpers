@@ -1,4 +1,4 @@
-export default class {
+export class Timer {
   constructor(name, logger) {
     this.name = name;
     this.startTime = Date.now();

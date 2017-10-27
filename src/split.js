@@ -1,8 +1,10 @@
-export default (list, test) => list.reduce(([a, b], listItem) => {
-  if (test(listItem)) {
-    a.push(listItem);
-  } else {
-    b.push(listItem);
-  }
-  return [a, b];
-}, [[], []]);
+export function split(list, test) {
+  return list.reduce(([a, b], listItem) => {
+    if (test(listItem)) {
+      a.push(listItem);
+    } else {
+      b.push(listItem);
+    }
+    return [a, b];
+  }, [[], []]);
+}

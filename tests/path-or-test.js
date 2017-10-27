@@ -1,5 +1,5 @@
 import { expect } from 'chai';
-import pathOr from '../src/path-or';
+import { pathOr } from '../src/path-or';
 
 describe('The pathOr helper', () => {
   describe('correctly gets a nested property from an object', () => {

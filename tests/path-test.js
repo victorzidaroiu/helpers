@@ -1,8 +1,8 @@
 import { expect } from 'chai';
-import path from '../src/path';
+import { path } from '../src/path';
 
-describe('The pathOr helper', () => {
-  describe('correctly gets the a nested property from an object', () => {
+describe('The path helper', () => {
+  describe('correctly gets a nested property from an object', () => {
     it('when the property exists', () => {
       const testObject = {
         a: {

@@ -1,6 +1,6 @@
 import { expect } from 'chai';
 import sinon from 'sinon';
-import Timer from '../src/timer';
+import { Timer } from '../src/Timer';
 
 describe('The timer object', () => {
   const timer = new Timer();
@@ -15,7 +15,7 @@ describe('The timer object', () => {
 
   context('when calling the end() function', () => {
     beforeEach(() => {
-      sinon.spy(timer, "end");
+      sinon.spy(timer, 'end');
       timer.end();
     });
 

@@ -1,1 +1,3 @@
-export default (object, ...keys) => keys.reduce((obj, key) => (obj || {})[key], object);
+export function path(object, ...keys) {
+  return keys.reduce((obj, key) => (obj || {})[key], object);
+}
