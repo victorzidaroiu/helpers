@@ -2,10 +2,9 @@
 
 Various general purpose helpers.
 
-## Setup
+## Installation
 
 `npm i`
-
 
 ## Run tests
 

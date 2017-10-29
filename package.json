@@ -2,9 +2,11 @@
   "name": "helpers",
   "version": "1.0.0",
   "description": "Various helper functions.",
-  "main": "index.js",
+  "main": "./dist",
   "scripts": {
-    "test": "mocha --compilers js:babel-core/register ./tests/*"
+    "build": "babel ./src -d ./dist",
+    "test": "mocha --compilers js:babel-core/register ./tests/*",
+    "install": "npm run build"
   },
   "repository": {
     "type": "git",
